@@ -1,11 +1,23 @@
-# Simulation of an electrolyte parallelized with OpenACC
+# Simulation of an electrolyte parallelized with OpenACC and OpenMP
 
-Brownian dynamics simulation of an electrolyte confined around a macroion with discrete charge (Parallelized with OpenACC).
+Brownian dynamics simulation of an electrolyte confined around a macroion with discrete charge (Parallelized with OpenACC and OpenMP).
 In the [thesis](Tesis_Rodolfo.pdf) you can find all the information about the simulation program, such as the theoretical framework, the tools used, the algorithms, the tests, and some runtime results as well as the behavior of the simulation. To run the simulation, you need to have [nvcc](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html) installed, which you can download [here](https://developer.nvidia.com/hpc-sdk).
 
 The aim of this study was to analyze the behavior of an electrolyte around a macroion with discrete charge composed of different types of charges (negative and positive), as even with the same net charge, the behavior differs.
 
 Rodríguez Gallegos, E. R. (2023). *Brownian dynamics simulation of an electrolyte confined around a macroion with discrete charge* [Bachelor's thesis, Universidad Autónoma de San Luis Potosí]. GitHub Repository. [https://github.com/Rodolfo-Gallegos/electrolyte_simulation](https://github.com/Rodolfo-Gallegos/Brownian-Dynamics-Simulation-OpenACC).
+
+```
+@misc{RodriguezGallegos2023,
+  author       = {Rodríguez Gallegos, E. R.},
+  title        = {Brownian dynamics simulation of an electrolyte confined around a macroion with discrete charge},
+  year         = {2023},
+  type         = {Bachelor's thesis},
+  institution  = {Universidad Autónoma de San Luis Potosí},
+  howpublished = {GitHub Repository},
+  url          = {https://github.com/Rodolfo-Gallegos/Brownian-Dynamics-Simulation-OpenACC}
+}
+```
 
 
 Español:
