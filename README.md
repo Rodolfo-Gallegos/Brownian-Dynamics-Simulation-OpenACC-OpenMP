@@ -22,7 +22,7 @@ Rodríguez Gallegos, E. R. (2023). *Brownian dynamics simulation of an electroly
 
 Español:
 
-Simulación de dinámica browniana de un electrolito confinado alrededor de un macroion con carga discreta (Paralelizada con OpenACC).
+Simulación de dinámica browniana de un electrolito confinado alrededor de un macroion con carga discreta (Paralelizada con OpenACC y OpenMP).
 En la [tesis](Tesis_Rodolfo.pdf) puedes encontrar toda la información sobre el programa de simulación, como el marco teórico, las herramientas utilizadas, los algoritmos, las pruebas y algunos resultados de tiempo de ejecución así como el comportamiento de la simulación. Para ejecutar la simulación necesitas tener instalado [nvcc](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html), lo puedes descargar [aquí](https://developer.nvidia.com/hpc-sdk).
 
 El objetivo de este trabajo fue analizar el comportamiento de un electrolito en presencia de un macroión con carga discreta, compuesta por diferentes tipos de carga (negativa y positiva). Se observó que, incluso con la misma carga neta, el comportamiento del sistema varía significativamente.
